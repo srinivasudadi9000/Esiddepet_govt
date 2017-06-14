@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/select_rl"
+    android:background="#ffffff"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+     >
+    <ImageView
+        android:layout_marginTop="50dp"
+        android:id="@+id/myimage"
+        android:src="@drawable/tglogo"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+
+        android:layout_centerHorizontal="true"/>
+   <!--
+   old one correct things
+   <Button
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:id="@+id/btn_submit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Register Grievance"
+        android:background="#337BB5"
+        android:layout_marginTop="20dp"
+        android:textColor="@android:color/white"
+        android:gravity="center"
+        android:layout_centerVertical="true"
+        android:layout_weight="1"/>-->
+   <!-- <Button
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:id="@+id/btn_submit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Register Grievance"
+        android:background="#006064"
+        android:layout_marginTop="20dp"
+        android:textColor="@android:color/white"
+        android:gravity="center"
+        android:layout_centerVertical="true"
+        android:layout_weight="1"/>
+    <Button
+        android:layout_below="@+id/btn_submit"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:id="@+id/knowstatus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Know your Grievance status"
+        android:background="#006064"
+        android:layout_marginTop="20dp"
+        android:textColor="@android:color/white"
+        android:gravity="center"
+        android:layout_centerVertical="true"
+        android:layout_weight="1"/>
+
+    <Button
+        android:layout_below="@+id/knowstatus"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:id="@+id/Applicationstatus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Application For Service Request "
+        android:background="#006064"
+        android:layout_marginTop="20dp"
+        android:textColor="@android:color/white"
+        android:gravity="center"
+        android:layout_centerVertical="true"
+        android:layout_weight="1"/>
+    <Button
+        android:layout_below="@+id/Applicationstatus"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:id="@+id/Applicationkwnstatus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" Service Request Status "
+        android:background="#006064"
+        android:layout_marginTop="20dp"
+        android:textColor="@android:color/white"
+        android:gravity="center"
+        android:layout_centerVertical="true"
+        android:layout_weight="1"/>-->
+
+    <Button
+
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:id="@+id/btn_submit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Register Grievance"
+        android:background="#337BB5"
+        android:layout_marginTop="20dp"
+        android:textColor="@android:color/white"
+        android:gravity="center"
+        android:layout_centerVertical="true"
+        android:layout_weight="1"/>
+    <Button
+
+        android:layout_below="@+id/btn_submit"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:id="@+id/knowstatus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Know your Grievance status"
+        android:background="#337BB5"
+        android:layout_marginTop="20dp"
+        android:textColor="@android:color/white"
+        android:gravity="center"
+        android:layout_centerVertical="true"
+        android:layout_weight="1"/>
+
+    <Button
+        android:layout_below="@+id/knowstatus"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:id="@+id/Applicationstatus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Application For Service Request "
+        android:background="#337BB5"
+        android:layout_marginTop="20dp"
+        android:textColor="@android:color/white"
+        android:gravity="center"
+        android:layout_centerVertical="true"
+        android:layout_weight="1"/>
+    <Button
+        android:layout_below="@+id/Applicationstatus"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:id="@+id/Applicationkwnstatus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" Service Request Status "
+        android:background="#337BB5"
+        android:layout_marginTop="20dp"
+        android:textColor="@android:color/white"
+        android:gravity="center"
+        android:layout_centerVertical="true"
+        android:layout_weight="1"/>
+
+
+</RelativeLayout>

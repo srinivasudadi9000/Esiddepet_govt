@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.eMedak">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.DELETE_CACHE_FILES" />
+
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.CLEAR_APP_CACHE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/tglogo"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.eMedak.SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.eMedak.ViewImage"
+            android:label="@string/title_activity_view_image" />
+        <activity
+            android:name="com.eMedak.ImageListView"
+            android:label="@string/title_activity_image_list_view" />
+        <activity
+            android:name="com.eMedak.ViewFullImage"
+            android:label="@string/title_activity_view_full_image"
+            android:parentActivityName="com.eMedak.ImageListView" />
+        <activity android:name="com.eMedak.Verification" />
+        <activity android:name="com.eMedak.SelectList" />
+        <activity android:name="com.eMedak.ShowComplaintDetails" />
+        <activity android:name="com.eMedak.MainActivity" />
+        <activity android:name="com.eMedak.GenerateNumber" />
+        <activity android:name="com.eMedak.GenerateNumberApplication" />
+        <activity android:name="com.eMedak.ServicesforApplication" />
+        <activity android:name="com.eMedak.ShowComplaintDetailsApplication" />
+        <activity android:name="com.eMedak.VerificationApplication" />
+        <activity android:name="com.eMedak.MainActivityWeb"></activity>
+    </application>
+
+</manifest>

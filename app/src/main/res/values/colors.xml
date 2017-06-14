@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+
+    <color name="colorPrimaryTransparent">#335f50e1</color>
+
+    <color name="textColorPrimary">#FFFFFF</color>
+    <color name="windowBackground">#FFFFFF</color>
+    <color name="oldcolor">#337BB5</color>
+    <color name="oldclearcolor">#ffcc00</color>
+    <color name="nizamcolor">#006064</color>
+    <color name="nizamclearcolor">#f0ad4e</color>
+
+
+    <color name="blue">#337BB5</color>
+</resources>
