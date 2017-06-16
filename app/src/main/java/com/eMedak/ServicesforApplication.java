@@ -529,14 +529,13 @@ public class ServicesforApplication extends AppCompatActivity {
             } catch (JSONException e) {
                 e.printStackTrace();
             }
-
-
         }
     }
 
 
     private void clearPreferences() {
         try {
+            //hello
             // clearing app data
             Runtime runtime = Runtime.getRuntime();
             runtime.exec("pm clear YOUR_APP_PACKAGE_GOES HERE");
