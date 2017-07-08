@@ -1,7 +1,6 @@
 package com.eMedak;
 
 import android.Manifest;
-import android.animation.AnimatorInflater;
 import android.animation.AnimatorSet;
 import android.app.Activity;
 import android.app.Dialog;
@@ -25,8 +24,6 @@ import android.util.Base64;
 import android.util.Log;
 import android.view.View;
 import android.view.Window;
-import android.view.animation.Animation;
-import android.view.animation.AnimationUtils;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
@@ -36,6 +33,10 @@ import android.widget.RelativeLayout;
 import android.widget.Spinner;
 import android.widget.TextView;
 import android.widget.Toast;
+
+import com.eMedak.adapters.mandalweb;
+import com.eMedak.adapters.officers;
+import com.eMedak.adapters.villageweb;
 
 import org.apache.http.NameValuePair;
 import org.apache.http.message.BasicNameValuePair;
@@ -70,9 +71,9 @@ public class MainActivityWeb extends AppCompatActivity implements View.OnClickLi
     TextView btn_clearall;
     String userChoosenTask;
     ArrayAdapter<String> adc1, adc2, officersadapter, officersselectadpt;
-    ArrayList<mandalweb> mandalweb;
-    ArrayList<villageweb> villageweb;
-    ArrayList<officers> officersweb;
+    ArrayList<com.eMedak.adapters.mandalweb> mandalweb;
+    ArrayList<com.eMedak.adapters.villageweb> villageweb;
+    ArrayList<com.eMedak.adapters.officers> officersweb;
     ArrayList<String> mandals, villages, officers, officersselect;
     String mymandalid, myvillageid, myofficers_cmp, selectmandal, selectvillage;
     int id_comp;
@@ -95,7 +96,7 @@ public class MainActivityWeb extends AppCompatActivity implements View.OnClickLi
             @Override
             public void onClick(View v) {
                 // new MainActivity.fssservice().execute();
-                Intent i = new Intent(MainActivityWeb.this, MainActivity.class);
+                Intent i = new Intent(MainActivityWeb.this, MainActivityWeb.class);
                 startActivity(i);
                 finish();
             }

@@ -42,8 +42,6 @@
         <activity android:name="com.eMedak.Verification" />
         <activity android:name="com.eMedak.SelectList" />
         <activity android:name="com.eMedak.ShowComplaintDetails" />
-        <activity android:name="com.eMedak.MainActivity" />
-        <activity android:name="com.eMedak.GenerateNumber" />
         <activity android:name="com.eMedak.GenerateNumberApplication" />
         <activity android:name="com.eMedak.ServicesforApplication" />
         <activity android:name="com.eMedak.ShowComplaintDetailsApplication" />

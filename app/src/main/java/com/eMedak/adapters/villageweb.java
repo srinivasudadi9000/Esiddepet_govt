@@ -1,4 +1,4 @@
-package com.eMedak;
+package com.eMedak.adapters;
 
 /**
  * Created by Srinivas on 10/29/2016.
@@ -7,7 +7,7 @@ package com.eMedak;
 public class villageweb {
     String villageid;
     String villagename;
-    villageweb(String villageid, String villagename){
+    public villageweb(String villageid, String villagename){
         this.villageid = villageid;
         this.villagename = villagename;
     }

@@ -1,4 +1,4 @@
-package com.eMedak;
+package com.eMedak.adapters;
 
 /**
  * Created by Srinivas on 10/29/2016.
@@ -6,7 +6,7 @@ package com.eMedak;
 
 public class officers {
     String officerid,officername;
-    officers(String officerid, String officername){
+    public officers(String officerid, String officername){
         this.officerid= officerid;this.officername= officername;
     }
 

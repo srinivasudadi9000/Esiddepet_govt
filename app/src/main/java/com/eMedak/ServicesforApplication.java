@@ -24,6 +24,9 @@ import android.widget.Spinner;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.eMedak.adapters.mandalweb;
+import com.eMedak.adapters.villageweb;
+
 import org.apache.http.NameValuePair;
 import org.apache.http.message.BasicNameValuePair;
 import org.json.JSONArray;
@@ -37,8 +40,8 @@ import java.util.List;
 
 public class ServicesforApplication extends AppCompatActivity {
     ArrayAdapter<String> adc1, adc2;
-    ArrayList<mandalweb> mandalweb;
-    ArrayList<villageweb> villageweb;
+    ArrayList<com.eMedak.adapters.mandalweb> mandalweb;
+    ArrayList<com.eMedak.adapters.villageweb> villageweb;
     ArrayList<String> mandals, villages;
     Bitmap bitmap;
     List<String> categories, c1, off, cn, cntwo;
